@@ -1,0 +1,24 @@
+{
+    "name": "whd/composer0526",
+    "description": "composer learn",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "whd",
+            "email": "15167659828@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "houdunwang/wechat": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "whdcode\\composer0526\\":"src"
+        }
+    }
+}
